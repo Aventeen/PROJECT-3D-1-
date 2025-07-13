@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisasi 3D</title>
+    <link rel="stylesheet" href="style.css">
 
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.165.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="info">Visualisasi 3D tingkat lanjut</div>
+
+    <div id="control-panel" style="display: none;">
+        <button id="enter-control-btn">Kontrol Motor</button>
+        <button id="exit-control-btn" style="display: none;">Lepas Kontrol</button>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
